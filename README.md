@@ -3,8 +3,31 @@ SafeC is a lightweight C library that provides safe, dynamic alternatives for co
 
 ⚠️ Although this library works in C++, it's primarily designed for C projects and is best suited for C developers who want safer and more flexible handling of strings and I/O.
 
+Example:
+```
+#include "safec.h"
+// stdio include not needed because safec.h includes it
+
+int main()
+{
+    s_print("Enter your name: ");
+    char* name = s_input();
+    if (name)
+    {
+        s_print_ln("Hello, %s!", name);
+        free(name);
+    }
+    else
+    {
+        s_print_ln("Failed to read input.");
+    }
+    return 0;
+}
+```
+
 Functions which are included on this library are:
-```char* s_input(void);
+```
+char* s_input(void);
 
 void s_print(const char* fmt, ...);
 
@@ -24,4 +47,5 @@ char* s_strtrim(const char* str);
 
 char** s_strsplit(const char* str, char delim, size_t* out_count);
 
-void s_strsplit_free(char** arr, size_t count);```
+void s_strsplit_free(char** arr, size_t count);
+```
