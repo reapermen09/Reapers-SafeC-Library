@@ -1,5 +1,5 @@
 # SafeC Library
-SafeC is a lightweight C library that provides safe, dynamic alternatives for common tasks in C — such as string manipulation, user input, and formatted printing — without risking buffer overflows or unsafe memory handling.
+SafeC is a lightweight C library released with the MIT License that provides safe, dynamic alternatives for common tasks in C — such as string manipulation, user input, and formatted printing — without risking buffer overflows or unsafe memory handling.
 
 ⚠️ Although this library works in C++, it's primarily designed for C projects and is best suited for C developers who want safer and more flexible handling of strings and I/O.
 
