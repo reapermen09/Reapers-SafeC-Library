@@ -1,8 +1,9 @@
 #include "safec.h"
-// stdio include not needed because safec.h includes it
+#include "io.h"
 
 int main()
 {
+	s_alloc_init();
     s_print("Enter your name: ");
     char* name = s_input();
     if (name)
