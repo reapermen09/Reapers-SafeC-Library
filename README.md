@@ -3,6 +3,8 @@ SafeC is a lightweight C library released with the MIT License that provides saf
 
 ⚠️ Although this library works in C++, Safe C is primarly targeted for C.
 
+NOTE: USE `#define SAFEC_DEBUG` for logging and make sure it is above `#include "safec.h"` and use the `s_log(); function. COMPLETY OPTIONAL!
+
 Example:
 ```
 #include "safec.h"
