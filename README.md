@@ -6,7 +6,8 @@ SafeC is a cross-platform lightweight C library released with the MIT License th
 NOTE: USE `#define SAFEC_DEBUG` for logging and make sure it is above `#include "safec.h"` and use the `s_log(); function. COMPLETY OPTIONAL!
 
 Also, on visual studio... you must add the files to do project as existing files.
-Example:
+
+Properly coded example:
 ```
 #include "safec.h"
 #include "io.h"
