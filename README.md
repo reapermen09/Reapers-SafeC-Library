@@ -7,6 +7,8 @@ NOTE: USE `#define SAFEC_DEBUG` for logging and make sure it is above `#include 
 
 Also, on visual studio... you must add the files to do project as existing files.
 
+NOTE: ON OLDER VERSIONS THAN v0.4 YOU MUST USE "_CRT_SECURE_NO_WARNINGS"
+
 Properly coded example:
 ```
 #include "safec.h"
