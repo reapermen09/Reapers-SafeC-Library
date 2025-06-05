@@ -1,4 +1,4 @@
-# SafeC Library
+# Reaper's SafeC Library
 SafeC is a lightweight C library released with the MIT License that provides safe, dynamic alternatives for common tasks in C such as string manipulation, user input, etc; and prevents Buffer Overflows.
 
 ⚠️ Although this library works in C++, Safe C is primarly targeted for C.
