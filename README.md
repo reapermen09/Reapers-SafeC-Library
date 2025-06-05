@@ -100,6 +100,6 @@ int s_stricmp_case_insensitive(const char* s1, const char* s2);
 
 # MIT LICENSE
 
-You may use this freely in any project.
+* You may use this freely in any project.
 
-You may not claim ownership of Safe C by Reapermen
+* You may not claim ownership of Safe C by Reapermen
