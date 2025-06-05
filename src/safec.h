@@ -8,6 +8,13 @@
 #include <stdio.h>
 #include <stdarg.h>
 
+
+#ifdef _MSC_VER
+#ifndef _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
+#endif
+#endif
+
 #ifdef SAFEC_DEBUG
 #define s_log(fmt, ...) fprintf(stderr, "[SafeC] " fmt "\n", ##__VA_ARGS__)
 #else
