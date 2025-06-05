@@ -32,6 +32,38 @@ int main()
 }
 ```
 
+What your code may look like without Safe C:
+
+```
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char name[100];
+
+    printf("Enter your name: ");
+    if (fgets(name, sizeof(name), stdin))
+    {
+        size_t len = strlen(name);
+        if (len > 0 && name[len - 1] == '\n')
+            name[len - 1] = '\0';
+        printf("Hello, %s!\n", name);
+    }
+    else
+    {
+        printf("Failed to read input.\n");
+    }
+
+    return 0;
+}
+
+```
+
+CONS w/o Safe C: FIXED-SIZED, MORE BOILER PLATE
+
+BENEFITS of Safe C: DYNAMICALLY MANAGED BUFFERS, LESS BOILER PLATE, ETC.
+
 Includes:
 ```
 #include "safec.h"
