@@ -28,6 +28,19 @@ int main()
 }
 ```
 
+Includes:
+```
+#include "safec.h"
+
+#include "file.h"
+
+#include "io.h"
+
+#include "string.h"
+
+#include "casting.h"
+```
+
 Functions which are included on this library are:
 ```
 int s_to_int(const char* str, int* out);
