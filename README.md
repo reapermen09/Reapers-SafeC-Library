@@ -2,6 +2,8 @@
 
 * Release: Unknown
 
+* NEW NAME: Reaper's C Ultimate Bundle
+
 There will be a major update that will add tons of features and this library made be renamed to rcub (Reaper's C Ultimate Bundle).
 
 Also many futures will be deprecated
