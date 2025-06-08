@@ -1,3 +1,56 @@
+# UPCOMING MAJOR UPDATE
+
+* Release: Unknown
+
+There will be a major update that will add tons of features and this library made be renamed to rcub (Reaper's C Ultimate Bundle).
+
+Also many futures will be deprecated
+
+# NEW CONTENT
+
+## String
+
+* starts_with(str);
+* ends_with(str);
+* trim_string(str);
+* to_lower(str);
+* to_upper(str);
+* reverse_string(str);
+
+## Arrays
+
+* array_length(array[]);
+
+## Files
+
+* path_exists(str);
+* path_create(str, str);
+* file_read(str, str);
+* file_write(str, str);
+* file_append(str, str);
+* file_contains(str, str);
+
+## IO
+
+* read();
+* print(str, fmt);
+* printl(str, fmt);
+
+## Casting
+
+* cast_string_int(str);
+* cast_bool_int(bool);
+* cast_float_int(float);
+* cast_string_bool(str);
+* cast_int_bool(int);
+* cast_float_bool(float);
+* cast_string_float(str);
+* cast_int_float(int);
+* cast_bool_float(bool);
+* cast_int_string(int);
+* cast_float_string(float);
+* cast_bool_string(bool);
+
 # Reaper's SafeC Library
 SafeC is a cross-platform lightweight C library released with the MIT License that provides safe, dynamic alternatives for common tasks in C such as string manipulation, user input, etc; and prevents Buffer Overflows.
 
